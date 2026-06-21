@@ -4,7 +4,7 @@ A modern and responsive personal portfolio website built to showcase my technica
 
 ## 🚀 Live Demo
 
-[View Portfolio](PORTFOLIO LINK)
+[View Portfolio](https://portfoliowebsite-ashen-chi.vercel.app/)
 
 ---
 
@@ -101,7 +101,7 @@ A modern calculator application focused on responsive design and intuitive user 
 
 - LinkedIn: [LinkedIn profile URL](https://www.linkedin.com/in/ashvini-chourasia/)
 - GitHub: [Github Profile URL](https://github.com/Ashvini-2)
-- Portfolio: [Visit Portfolio](YOUR_PORTFOLIO_URL)
+- Portfolio: [Visit Portfolio](https://portfoliowebsite-ashen-chi.vercel.app/)
 - Email: ashvinichourasia@gmail.com
 
 ---
