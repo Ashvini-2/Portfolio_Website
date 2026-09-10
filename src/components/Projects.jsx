@@ -20,12 +20,7 @@ export default function Projects() {
   const projectsData = [
     {
       title: "Personal Portfolio Website",
-      description: "Designed and developed a responsive personal portfolio website to showcase projects, technical skills, certifications, internship experience, and professional journey.",
-      highlights: [
-        "Built interactive and responsive sections using React.js and modern frontend technologies.",
-        "Created a modern UI to present projects, certifications, technical skills, experience, and contact information.",
-        "Deployed the website using Vercel for public access."
-      ],
+      description: "Designed and developed a responsive portfolio website to showcase my projects, skills, certifications, and experience.",
       image: portfolioAppImg,
       icon: <Globe size={20} className="proj-icon-rose" />,
       technologies: ["React.js", "JavaScript", "HTML5", "CSS3", "Vercel"],
