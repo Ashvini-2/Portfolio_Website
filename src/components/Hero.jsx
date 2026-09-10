@@ -137,7 +137,7 @@ export default function Hero() {
               </button>
               
               <a 
-                href="https://drive.google.com/uc?export=download&id=1FQrB-SyToe-K82pzUm4oKNmWZ6N1HZ5k" 
+                href="https://drive.google.com/uc?export=download&id=1SDvHZLCc08AMrPxYazF-6PCV0h_xJBY1" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-secondary shine-overlay magnetic-item"
