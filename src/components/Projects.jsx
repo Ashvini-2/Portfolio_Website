@@ -30,16 +30,6 @@ export default function Projects() {
       ]
     },
     {
-      title: "Java Chat Application",
-      description: "A real-time chat application developed using Java networking and socket programming concepts, enabling instant communication between connected users.",
-      image: chatAppImg,
-      icon: <MessageSquare size={20} className="proj-icon-blue" />,
-      technologies: ["Java", "Socket Programming"],
-      links: [
-        { label: "GitHub", url: "https://github.com/Ashvini-2/ChatttingApplication", icon: <GithubIcon size={16} /> }
-      ]
-    },
-    {
       title: "Electricity Billing System",
       description: "A desktop-based electricity billing management system built using Java, JDBC, and MySQL for customer management, bill generation, and record maintenance.",
       image: billingAppImg,
@@ -58,6 +48,16 @@ export default function Projects() {
       links: [
         { label: "Live Demo", url: "https://weatherapp-mu-vert.vercel.app/", icon: <ExternalLink size={16} /> },
         { label: "GitHub", url: "https://github.com/Ashvini-2/Weather_App", icon: <GithubIcon size={16} />, secondary: true }
+      ]
+    },
+    {
+      title: "Java Chat Application",
+      description: "A real-time chat application developed using Java networking and socket programming concepts, enabling instant communication between connected users.",
+      image: chatAppImg,
+      icon: <MessageSquare size={20} className="proj-icon-blue" />,
+      technologies: ["Java", "Socket Programming"],
+      links: [
+        { label: "GitHub", url: "https://github.com/Ashvini-2/ChatttingApplication", icon: <GithubIcon size={16} /> }
       ]
     },
     {
