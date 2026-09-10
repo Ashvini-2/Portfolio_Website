@@ -114,7 +114,7 @@ export default function Hero() {
             </h1>
 
             <h2 className="hero-subtitle reveal reveal-delay-3">
-              Frontend Developer Intern <span className="separator">|</span> Java Developer <span className="separator">|</span> B.Tech CSE Student
+              Software Developer <span className="separator">|</span> Frontend Developer <span className="separator">|</span> B.Tech CSE Student
             </h2>
 
             <div className="typing-text-wrapper reveal reveal-delay-3" aria-live="polite">
@@ -123,7 +123,7 @@ export default function Hero() {
             </div>
 
             <p className="hero-description reveal reveal-delay-4">
-              I'm a Computer Science student passionate about Frontend development. I enjoy building scalable applications using Java, React, and modern web technologies. Currently seeking internship opportunities where I can contribute, learn, and grow as a software engineer.
+              I'm a Computer Science student passionate about software development and problem-solving. I enjoy building practical applications using Java, JavaScript, React, HTML, and CSS, with hands-on experience in frontend development and API integration. Currently, I'm expanding my knowledge in Machine Learning, Deep Learning, and GIS while continuing to grow as a software developer.
             </p>
 
             <div className="hero-actions reveal reveal-delay-4">

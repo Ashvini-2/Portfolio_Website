@@ -77,13 +77,14 @@ const journeySteps = [
     customDate: "1 Jun 2026 – 30 Jun 2026",
     title: "Worked @ IncodeVision",
     subtitle: "Frontend Developer Intern",
-    desc: "Worked as a Frontend Developer Intern at IncodeVision, contributing to real-world frontend development projects and gaining practical industry experience.",
+    desc: "Worked as a Frontend Developer Intern at IncodeVision, gaining hands-on experience in building responsive web applications using React.js, JavaScript, HTML5, and CSS3.",
     contributions: [
-      "Developed QuickCalc App using React.js",
-      "Built a responsive Weather App",
-      "Implemented frontend features using HTML, CSS, JavaScript, and React.js"
+      "Built a responsive personal portfolio website to showcase projects, certifications, skills, and professional experience.",
+      "Developed a Weather App with real-time API integration and responsive design.",
+      "Built QuickCalc, a lightweight calculator web application.",
+      "Implemented responsive and user-friendly frontend interfaces using React.js, JavaScript, HTML5, and CSS3."
     ],
-    tags: ["React.js", "JavaScript", "HTML", "CSS", "Frontend Development", "UI/UX"],
+    tags: ["React.js", "JavaScript", "HTML5", "CSS3", "API Integration", "Frontend Development"],
     isOngoing: false,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -97,8 +98,9 @@ const journeySteps = [
     year: "2026",
     title: "Entering 3rd Year B.Tech CSE",
     subtitle: "Continuing Education",
-    desc: "Entering the third year of my Computer Science and Engineering degree while continuing to gain practical industry experience through internships and project development.",
-    tags: ["Education", "B.Tech CSE"],
+    desc: "Started my third year of B.Tech CSE, expanding my technical interests beyond software development into Machine Learning, Deep Learning, and GIS while continuing to build practical projects and strengthen my problem-solving skills.",
+    tags: ["B.Tech CSE", "Machine Learning", "Deep Learning", "GIS"],
+    isOngoing: true,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 2 7 12 12 22 7 12 2"/>

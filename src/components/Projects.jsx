@@ -1,6 +1,7 @@
-import { MessageSquare, Receipt, CloudSun, Calculator, ExternalLink, Info } from 'lucide-react';
+import { MessageSquare, Receipt, CloudSun, Calculator, ExternalLink, Globe, Info } from 'lucide-react';
 import useIntersectionObserver from '../hooks/useIntersectionObserver';
 
+import portfolioAppImg from '../assets/portfolio_app.png';
 import chatAppImg from '../assets/chat_app.png';
 import billingAppImg from '../assets/billing_app.png';
 import weatherAppImg from '../assets/weather_app.png';
@@ -17,6 +18,22 @@ export default function Projects() {
   const revealRef = useIntersectionObserver({ threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
 
   const projectsData = [
+    {
+      title: "Personal Portfolio Website",
+      description: "Designed and developed a responsive personal portfolio website to showcase projects, technical skills, certifications, internship experience, and professional journey.",
+      highlights: [
+        "Built interactive and responsive sections using React.js and modern frontend technologies.",
+        "Created a modern UI to present projects, certifications, technical skills, experience, and contact information.",
+        "Deployed the website using Vercel for public access."
+      ],
+      image: portfolioAppImg,
+      icon: <Globe size={20} className="proj-icon-rose" />,
+      technologies: ["React.js", "JavaScript", "HTML5", "CSS3", "Vercel"],
+      links: [
+        { label: "Live Demo", url: "https://portfoliowebsite-ashen-chi.vercel.app/", icon: <ExternalLink size={16} /> },
+        { label: "GitHub", url: "https://github.com/Ashvini-2/Portfolio_Website", icon: <GithubIcon size={16} />, secondary: true }
+      ]
+    },
     {
       title: "Java Chat Application",
       description: "A real-time chat application developed using Java networking and socket programming concepts, enabling instant communication between connected users.",
@@ -142,6 +159,14 @@ export default function Projects() {
                 <p className="project-description" style={{ transform: 'translateZ(15px)' }}>
                   {project.description}
                 </p>
+
+                {project.highlights && (
+                  <ul className="project-highlights" style={{ transform: 'translateZ(15px)' }}>
+                    {project.highlights.map((point, pointIdx) => (
+                      <li key={pointIdx}>{point}</li>
+                    ))}
+                  </ul>
+                )}
 
                 <div className="project-tech-list" style={{ transform: 'translateZ(20px)' }}>
                   {project.technologies.map((tech, techIdx) => (
